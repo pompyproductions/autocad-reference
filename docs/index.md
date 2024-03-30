@@ -1,5 +1,7 @@
 # Eren's AutoCAD reference
 
+Project in development.
+
 ## Quickstart
 
 If you want to set up AutoCAD the way I recommend (and use it personally), check out the [configuration page](configuration/index.md).
