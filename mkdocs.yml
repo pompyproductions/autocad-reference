@@ -1,0 +1,128 @@
+# Project information
+site_name: Eren's AutoCAD reference
+site_author: Eren Gazioglu
+site_url: https://erengazioglu.com/
+site_description: >-
+  A highly opinionated guide on AutoCAD, bringing lesser-known
+  features and best practices to light.
+
+# Repo (change this later)
+repo_name: pompyproductions/erengazioglu
+repo_url: https://github.com/pompyproductions/erengazioglu
+
+# Theme
+theme:
+  name: material
+  language: en
+  # favicon: images/favicon.png
+  icon:
+    logo: material/file-cad-box # changes title icon
+  features:
+    - navigation.tabs # adds the nav right below the header
+    - navigation.tabs.sticky # makes them stay where they are
+    # - navigation.sections     # idk yet
+    - navigation.top          # back to top button
+    - navigation.footer       # adds "next" "previous" buttons all the way down, looks very cool
+    - navigation.tracking     # updates URL with currently viewed section
+    - navigation.indexes      # makes index.md work as intended
+    - toc.integrate            # TOC on left hand side with subsections
+    - search.suggest          # idk yet
+    - search.highlight        # idk yet
+    # - content.tabs.link       # idk yet
+    # - content.code.annotation # idk yet
+    - content.code.copy       # copy button on code snippets
+  font:
+    text: Work Sans
+    code: Cousine
+  palette: # list of different schemes that you can toggle
+    - scheme: default # light mode
+      toggle: # adds toggle button next to search
+        icon: material/weather-sunny
+        name: Switch to dark mode # tooltip
+      primary: blue grey
+      accent: teal
+    - scheme: slate # dark mode
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: black
+      accent: deep orange
+
+# MD Extensions (copied from official docs source code)
+markdown_extensions:
+  # - abbr
+  # - admonition
+  # - attr_list
+  # - def_list
+  # - footnotes
+  # - md_in_html
+  - toc:
+      permalink: true # adds the permalink button next to headings
+  # - pymdownx.arithmatex:
+  #     generic: true
+  # - pymdownx.betterem:
+  #     smart_enable: all
+  # - pymdownx.caret
+  # - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  # - pymdownx.highlight:
+  #     anchor_linenums: true
+  #     line_spans: __span
+  #     pygments_lang_class: true
+  # - pymdownx.inlinehilite
+  # - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     normalize_issue_symbols: true
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  # - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.snippets:
+  #     auto_append:
+  #       - includes/mkdocs.md
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  # - pymdownx.tabbed:
+  #     alternate_style: true
+  #     combine_header_slug: true
+  #     slugify: !!python/object/apply:pymdownx.slugs.slugify
+  #       kwds:
+  #         case: lower
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  # - pymdownx.tilde
+
+# Additional configuration
+extra:
+  version: 0.1
+  social: # adds icon buttons to the footer
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/pompyproductions
+      name: My GitHub profile
+    - icon: material/web
+      link: https://erengazioglu.com
+      name: My personal website
+  # homepage: https://erengazioglu.com # changes title icon href
+copyright:
+  <a href="https://erengazioglu.com" target="_blank" rel="noopener">Eren Gazioglu</a> © 2024 
+
+# Page tree
+# If not provided, will be created automatically
+nav:
+  - Home: index.md
+  - Configuration:
+    - configuration/index.md
+    # - 
+  - Reference:
+    - reference/index.md
+    - Commands: reference/commands.md
+    - Variables: reference/variables.md
+    - Wildcards: reference/wildcards.md
+  - Common Questions:
+    - frequent/index.md
