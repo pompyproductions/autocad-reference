@@ -4,4 +4,4 @@
 
 ### 30/03/2024: Initial setup
 
-Created repository, set up basic mkdocs and material ui.
+Created repository, set up basic mkdocs and material ui, and github pages publishing.
