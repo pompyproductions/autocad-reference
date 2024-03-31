@@ -121,7 +121,10 @@ nav:
   - Home: index.md
   - Configuration:
     - configuration/index.md
-    # - 
+    - Aliases (shortcuts for commands): configuration/aliases.md
+    - Useful LISPs (custom commands): configuration/lisps.md
+    - General Options: configuration/options.md
+    - System Variables: configuration/variables.md 
   - Reference:
     - reference/index.md
     - Commands: reference/commands.md
