@@ -25,3 +25,5 @@ Not a step-by-step tutorial, but a reference.
 Not comprehensive, just pointers for particular things.
 
 Commands are always presented in English. Invoke those commands with an underscore, and it will appear in your own language once you hit enter.
+
+![Desktop screen capture](./img/Animation4.gif){ align=left }

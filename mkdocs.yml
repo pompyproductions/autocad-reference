@@ -52,10 +52,10 @@ theme:
 markdown_extensions:
   # - abbr
   # - admonition
-  # - attr_list
+  - attr_list # keep for images
   # - def_list
   # - footnotes
-  # - md_in_html
+  - md_in_html # keep for images
   - toc:
       permalink: true # adds the permalink button next to headings
   # - pymdownx.arithmatex:
@@ -97,6 +97,9 @@ markdown_extensions:
   # - pymdownx.tasklist:
   #     custom_checkbox: true
   # - pymdownx.tilde
+
+plugins:
+  - glightbox
 
 # Additional configuration
 extra:
