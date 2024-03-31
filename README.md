@@ -1,6 +1,10 @@
 # Eren's AutoCAD reference
 
-## Log
+A highly opinionated online AutoCAD reference.
+
+## Devlog
+
+### 31/03/2024: First content
 
 ### 30/03/2024: Initial setup
 
