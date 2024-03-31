@@ -125,6 +125,12 @@ nav:
     - Useful LISPs (custom commands): configuration/lisps.md
     - General Options: configuration/options.md
     - System Variables: configuration/variables.md 
+  - Workflow:
+    - workflow/index.md
+    - Layers: workflow/layers.md
+    - Blocks: workflow/blocks.md
+    - Hatches: workflow/hatches.md
+    - Layouts: workflow/layouts.md
   - Reference:
     - reference/index.md
     - Commands: reference/commands.md
