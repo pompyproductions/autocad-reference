@@ -1,5 +1,35 @@
 # Commands
 
-## WBlock & DDInsert
+## ADDSELECTED
 
-## Field
+## WBLOCK
+
+## DDINSERT
+
+## FIELD
+
+## UCS
+
+## XATTACH
+
+## PURGE
+
+## LAYER
+
+## LTSCALE
+
+## CELTSCALE
+
+## BEDIT
+
+## REFEDIT
+
+## PUBLISH
+
+## QSELECT
+
+## FILTER
+
+## VIEWPORTS
+
+## PEDIT
