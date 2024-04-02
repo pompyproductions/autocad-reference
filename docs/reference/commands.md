@@ -150,7 +150,11 @@
 
 ## COPYBASE
 
+(useful for copying things between drawings/layouts with a common point of reference. Especially when the 0 point doesn't match between files)
+
 ## ATTSYNC
+
+(sigh... just autocad things)
 
 ## EXTEND
 
@@ -165,3 +169,7 @@
 ## EXPLODE
 
 (use on text)
+
+## XLINE
+
+(avoid on non-flat drawings, can't be flattened and mess up the whole thing)
