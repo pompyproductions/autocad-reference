@@ -69,7 +69,8 @@
 
 ## VIEWPORTS
 
-(in model space, work with different viewports)
+(in model space, work with different viewports)  
+(one interesting method is to keep one very thin window to the side with the chartre des calques/blocks/annotations for addselected/copy/layer commands)
 
 ## PEDIT
 
@@ -124,6 +125,8 @@
 
 ## (isolate layer)
 
+(option to fade or to hide entirely)
+
 ## (set current layer)
 
 ## (matchprop)
@@ -175,3 +178,7 @@
 ## XLINE
 
 (avoid on non-flat drawings, can't be flattened and mess up the whole thing)
+
+## DRAWORDER
+
+(right click usually does the trick, but could be faster to use this command if you reach for it often)
