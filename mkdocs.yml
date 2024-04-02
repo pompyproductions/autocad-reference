@@ -131,6 +131,7 @@ nav:
     - Blocks: workflow/blocks.md
     - Hatches: workflow/hatches.md
     - Layouts: workflow/layouts.md
+    - Snapping: workflow/snapping.md
     - Wildcards: workflow/wildcards.md
   - Reference:
     - reference/index.md
