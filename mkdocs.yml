@@ -131,10 +131,10 @@ nav:
     - Blocks: workflow/blocks.md
     - Hatches: workflow/hatches.md
     - Layouts: workflow/layouts.md
+    - Wildcards: workflow/wildcards.md
   - Reference:
     - reference/index.md
     - Commands: reference/commands.md
     - Variables: reference/variables.md
-    - Wildcards: reference/wildcards.md
   - Common Questions:
     - frequent/index.md
