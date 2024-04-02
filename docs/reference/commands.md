@@ -7,6 +7,8 @@
 (very powerful when making hatches)  
 (unfortunately the commands don't work the same, e.g. window selection in hatches)
 
+![Add selected](../img/ADDSELECTED-01.gif)
+
 ## WBLOCK
 
 (save blocks to disk: good for models you can reuse in the future)  
