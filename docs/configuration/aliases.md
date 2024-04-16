@@ -8,9 +8,15 @@ While the menu is quite useful for commands that you use less often, if you find
 
 The aliases used by AutoCAD are stored in a file named `acad.pgp`, which you can find in a couple of ways:
 
-(%appdata%)
+### By navigating to %APPDATA%
 
-(autocad ribbon → cui → alias)
+You can either manually navigate to the "User/AppData/Roaming" folder on your disk, or use the "Run" command on Windows to get there (`Win + R` → `%APPDATA%`).
+
+![APPDATA through Win+R](../img/APPDATA-02.gif)
+
+### From the AutoCAD Ribbon
+
+![ALIAS from AutoCAD ribbon](../img/ALIAS.gif)
 
 ## Default aliases
 
