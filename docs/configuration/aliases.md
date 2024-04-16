@@ -66,4 +66,14 @@ This way, it's possible to easily revert to the original state (by deleting/disa
 
 Here are some useful ones that I recommend:
 
-(set/change/freeze/thaw/lock/unlock layers with sl, cl, fl, tl, ll, ul)
+### Layer commands
+
+```title="acadlt.pgp"
+CL,         *LAYMCH
+FL,         *LAYFRZ
+LL,         *LAYLCK
+UL,         *LAYULK
+SL,         *LAYMCUR
+IL,         *LAYISO
+UNIL,       *LAYUNISO
+```
