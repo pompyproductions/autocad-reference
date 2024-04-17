@@ -157,6 +157,8 @@
 
 (useful for copying things between drawings/layouts with a common point of reference. Especially when the 0 point doesn't match between files)
 
+![COPYBASE](../img/COPYBASE-01.gif)
+
 ## ATTSYNC
 
 (sigh... just autocad things)
