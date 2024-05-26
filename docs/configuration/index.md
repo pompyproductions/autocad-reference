@@ -8,7 +8,7 @@ Before you jump into making shapes and such, make sure you and your software are
 [→ AutoCAD System Variables:](variables.md) make AutoCAD behave in a way that'll enable you to work faster and cleaner.  
 [→ Command Aliases:](aliases.md) invoke your most used commands without having to type in the whole thing.  
 
-## Add some extras
+## Adding some extras
 
 [→ CTBs:](ctb.md) make it so that your colorful layers produce a beautiful drawing on paper (or PDF).  
 [→ Styles:](styles.md) lay the groundwork for annotating your drawings.  
