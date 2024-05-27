@@ -22,6 +22,9 @@ _(Side note: it is still possible to switch to side views with some black magic,
 
 It doesn't seem to play well with certain types of objects (rays, construction lines, blocks...), so I tend to use it in a "localized" approach, where I select a smaller set of shapes that do not seem to intersect correctly.
 
+## BlockReplace
+
+Let me start off by saying this: **why isn't this a built-in command?** I don't know the answer, nor do I care too much, since this beautiful LISP gets the work done so well it makes me want to organize my model around it.
 
 ## Other LISPs I'll be testing
 
