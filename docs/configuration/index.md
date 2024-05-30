@@ -1,7 +1,7 @@
 # Configuration
 
 Before you jump into making shapes and such, make sure you and your software are prepared for what's to come.  
-If it's your first time here, **I recommend you read through these in the order below.**
+If it's your first time here, **I recommend you read through these in the order presented below.**
 
 ## Setting up your work environment
 
