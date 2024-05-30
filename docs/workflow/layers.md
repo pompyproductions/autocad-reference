@@ -1,12 +1,18 @@
 # Layers
 
-(don't use thematic layers, use generic ones)
+Every object in AutoCAD sits in a layer, in one way or another. How you organize and use these layers have, arguably, the biggest impact on your work.
 
-(use a very limited template, and extend it as you go)
 
-(keep hatches and their guides separated)
 
-(create a layer non-printing construction lines)
+## Make it concise and extensible
+
+## Thematic vs. Graphic layers
+
+## Non-printing layers
+
+(Construction lines, viewports, hatch boundaries)
+
+## Freezing vs. Turning off a layer
 
 ## Special layers
 
