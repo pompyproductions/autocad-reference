@@ -69,11 +69,26 @@ Here are some useful ones that I recommend:
 ### Layer commands
 
 ```title="acadlt.pgp"
-CL,         *LAYMCH
-FL,         *LAYFRZ
-LL,         *LAYLCK
-UL,         *LAYULK
-SL,         *LAYMCUR
-IL,         *LAYISO
-UNIL,       *LAYUNISO
+SL,     *LAYMCUR
+CL,     *LAYMCH
+TL,     *LAYTHW
+FL,     *LAYFRZ
+LL,     *LAYLCK
+UL,     *LAYULK
+IL,     *LAYISO
+UNIL,   *LAYUNISO
+VL,     *VPLAYER
+```
+
+### Others
+
+```title="acadlt.pgp"
+CPB,    *COPYBASE
+QS,     *QSEL
+T,      *TEXT
+MT,     *MTEXT
+A,      *ADDSELECTED
+RG,     *REGEN
+FD,     *FIELD
+CS,     *CHSPACE
 ```
