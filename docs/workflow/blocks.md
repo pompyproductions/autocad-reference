@@ -76,3 +76,5 @@ Try to avoid nesting too many blocks.
 ### Dynamic blocks & EDITREF
 
 The REFEDIT command does not work for dynamic blocks, so avoid using dynamic blocks when a normal block will suffice.
+
+## WBlock & DDInsert

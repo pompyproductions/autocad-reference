@@ -8,6 +8,8 @@
 
 (lock your viewports always)
 
-(use -zoom for scale)
+(use -zoom for scale, -p to move. line them up nicely)
 
-(changespace, psp, msp are your friends)
+(have guides for lining things up)
+
+(chspace, ps, ms are your friends)

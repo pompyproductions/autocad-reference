@@ -11,3 +11,5 @@
 (hatches can have a pattern and a background. sometimes you might want a white background for a hatch, and if your hatch needs to be on a "white" layer you won't be able to see your hatch over the "255" background.)
 
 (you can decide an origin point for all your hatches so that they line up nicely)
+
+(addselected is your friend)

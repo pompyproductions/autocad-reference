@@ -13,3 +13,7 @@ Doesn't work if you have "near" enabled, so don't enable it. It's not that usefu
 ## Type the snap
 
 `CEN`, `PERP`...
+
+## Shift + right click
+
+### Middle between two points
