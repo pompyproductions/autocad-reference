@@ -48,13 +48,16 @@ You might think that using a very small cursor is the "pro" way to go, but too s
 
 - Make sure the right objects are on top (this is _seriously_ painful),  
 - If it's easier, pick multiple objects and remove the unwanted ones,  
+- Make sure hatches aren't getting in your way (freeze them for precise work),  
 - Manage your layers so that there aren't so many objects in the first place.
+
+If you're interested in how to get better at picking exactly what you want, head over to the ["Selecting Objects"](../workflow/selection.md) article under the ["Workflow"](../workflow/index.md) section.
 
 ## Save to an older format
 
 _(You can find this option under Open and Save > File Save.)_
 
-For ***reasons,*** a lot of people don't own the newest AutoCAD. Make sure your software saves your files in a reasonably compatible format. It's not only good for older versions of AutoCAD, but also for other software (e.g. Adobe Illustrator, Rhinoceros...) that can import `.dwg` files.
+For _reasons,_ a lot of people don't own the newest AutoCAD. Make sure your software saves your files in a reasonably compatible format. It's not only good for older versions of AutoCAD, but also for other software (e.g. Adobe Illustrator, Rhinoceros...) that can import `.dwg` files.
 
 <figure markdown="span">
   ![Selection options](../img/OPTIONS-VERSION.jpg)
@@ -72,4 +75,4 @@ An important thing to consider is to **avoid using pure black for your backgroun
 I don't mess with the standard colors, but if you're set on doing so, here's two sensible recommendations:
 
 - The background has a slight _blue_ tint to it, pulling it toward the red will help with pure blue lines (#0000ff in hexadecimal). Pure blue over black is _criminally bad_ for its contrast values, so avoid them as much as you can...  
-- The default background for block editing is light gray. I don't know what AutoCAD was thinking, aside from "let's make it obvious that you're no longer in model space. That's fine I guess, but a subtle color change would be better.
+- The default background for block editing is light gray. I don't know what AutoCAD was thinking, aside from "let's make it obvious that you're no longer in model space". That's fine I guess, but a more subtle color change would be better.
