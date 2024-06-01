@@ -2,7 +2,7 @@
 
 This is the easiest way to get some initial customization in: type in the "options" command, and an interface pops up with some settings to tweak.
 
-Most (actually maybe all) of these functionalities are actually system variables, but more on that later.
+Most (actually maybe all) of these functionalities are actually [system variables,](variables.md) but more on that later.
 
 ## Pressing SHIFT to grab snap points
 
@@ -12,9 +12,9 @@ By default, AutoCAD's Object Snap lets you align with objects by hovering over t
 
 However, this comes with some disadvantages:
 
-1. You have to sit and wait to grab the point. For simple shapes this is not a problem, but it slows you down considerably if you have multiple points to align yourself with.  
-2. The cursor may snap to undesired points, making it easy to trip and end up starting over.  
-3. Cancelling a point is equally awkward, and often ends up with picking up even more unnecessary points.
+1. **You have to sit and wait** to grab the point. For simple shapes this is not a problem, but it slows you down considerably if you have multiple points to align yourself with.  
+2. **The cursor may snap to undesired points,** making it easy to trip and end up starting over.  
+3. **Cancelling a point is equally awkward,** and often ends up with picking up even more unnecessary points.
 
 While the above might seem trivial, here are some situations where this can get _really_ annoying:
 
@@ -22,7 +22,7 @@ While the above might seem trivial, here are some situations where this can get 
 - Sluggish computers, where the cursor lags behind and ends up places you didn't want it to go.  
 - An overly sensitive or slow mouse, which reduces your accuracy.
 
-_(Do notice that these situations can easily overlap.)_
+_(Do note that these situations can easily overlap.)_
 
 Instead, this option to "cherrypick" your points by pressing `Shift` alleviates a lot of these issues. It makes it so that the operation is _as fast as you are._
 
@@ -33,11 +33,13 @@ The use is simple: hit `Shift` while hovering over a Snap Point to acquire it, a
   <figcaption>Using "SHIFT" to pick points.</figcaption>
 </figure>
 
+For more detailed info abot how to make good use out of object snaps, head over to the ["Snapping to Objects article"](../workflow/snapping.md) under the ["Workflow section."](../workflow/index.md)
+
 ## Don't make the cursor too big (or too small)
 
 _(You can find this option under Selection > Pickbox Size.)_
 
-Pretty straightforward: the cursor size needs to be just right. Too big, and you keep picking the wrong things. Too small, and you keep missing the right ones. For reference, this is how big I've set my own:
+Pretty straightforward: **the cursor size needs to be just right.** Too big, and you keep picking the wrong things. Too small, and you keep missing the right ones. For reference, this is how big I've set my own:
 
 <figure markdown="span">
   ![Selection options](../img/OPTIONS-SELECTION.jpg)

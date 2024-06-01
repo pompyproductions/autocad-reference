@@ -7,7 +7,7 @@ The easiest way to visualize it _—that I can think of, anyway—_ is to imagin
 
 ## Isn't it the same thing as "options"?
 
-If you're wondering whether there's a difference between ["options"](options.md) and variables, the short answer is: _none._ The "options" dialogue —the one that pops up when you invoke the `OPTIONS` command— is actually little more than a user-friendly interface to change some of the more common settings. Under the hood, it's _variables_ that it changes.
+If you're wondering whether there's a difference between ["options"](options.md) and variables, the short answer is: _not really._ The "options" dialogue —the one that pops up when you invoke the `OPTIONS` command— is actually little more than a user-friendly interface to change some of the more common settings. Under the hood, it's _variables_ that it changes.
 
 However, the settings you can access in the Options dialogue are quite limited. You won't find everything you need there: they are mostly _global_ settings that apply to how your software behaves, and **it doesn't include settings that are specific to the drawing itself.** You use variables to change so many more things, for example:  
 
@@ -59,10 +59,30 @@ Now that the boring stuff is out of the way, let's dive straight in to some usef
 
 ### DRAGMODE, SELECTIONPREVIEW
 
+These are a great example of "situational" variables. 
+
 ### FILETABPREVIEW, FILETABTHUMBOVER
+
+FILETABPREVIEW and FILETABTHUMBOVER variables define the behavior of "file tabs": what happens when you move your cursor over the files you've opened. 
+
+**FILETABPREVIEW,** as the name suggests, will decide whether or not page previews will be displayed. It's kind of in the way, but it's the less harmful of the two, so it's fine if you prefer to leave it as-is.
+
+<figure markdown="span">
+  ![FILETABPREVIEW Enabled](../img/FILETAB-01.jpg)
+  <figcaption>The file tab thumbnails, when FILETABPREVIEW is set to 1. Gets in the way some.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![FILETABPREVIEW Disabled](../img/FILETAB-02.jpg)
+  <figcaption>FILETABPREVIEW disabled. Could've been better, but good enough.</figcaption>
+</figure>
+
+**FILETABTHUMBOVER,** however, drives me nuts every time. If enabled, simply hovering over the previews mentioned above will change your screen to display that page. **Set this to 0** if it's the last thing you do.
 
 
 ## Linetype variables
+
+Any kind of annotation in AutoCAD comes with a particular challenge that you'll run into quite often: scaling.
 
 ### LTSCALE, CELTSCALE
 
@@ -71,5 +91,7 @@ Now that the boring stuff is out of the way, let's dive straight in to some usef
 ### CANNOSCALE
 
 ## Frames
+
+There's a lot of objects that are "contained" within frames: XREFs, images, PDFs, and so on.
 
 ## Viewports
