@@ -2,8 +2,6 @@
 
 Every object in AutoCAD sits in a layer, in one way or another. How you organize and use these layers have, arguably, the biggest impact on your work.
 
-
-
 ## Make it concise and extensible
 
 ## Thematic vs. Graphic layers
@@ -13,6 +11,10 @@ Every object in AutoCAD sits in a layer, in one way or another. How you organize
 (Construction lines, viewports, hatch boundaries)
 
 ## Freezing vs. Turning off a layer
+
+## Using the -LAYER command
+
+### XREFs
 
 ## Special layers
 
