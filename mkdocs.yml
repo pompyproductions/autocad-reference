@@ -32,7 +32,7 @@ theme:
     # - content.code.annotation # idk yet
     - content.code.copy       # copy button on code snippets
   font:
-    text: Work Sans
+    text: Barlow
     code: Cousine
   palette: # list of different schemes that you can toggle
     - scheme: default # light mode
