@@ -12,6 +12,6 @@ If it's your first time here, **I recommend you read through these in the order 
 ## Adding some extras
 
 [→ CTBs:](ctb.md) Make it so that your colorful layers produce a beautiful drawing on paper (or PDF).  
-[→ Styles:](styles.md) Lay the groundwork for annotating your drawings.  
+[→ Annotation Styles:](styles.md) Lay the groundwork for annotating your drawings.  
 [→ Templates:](templates.md) Prepare a starting point, so you don't have to start from scratch each time.  
 [→ LISPs:](lisps.md) patch up your AutoCAD with functions that should exist, but don't.  
