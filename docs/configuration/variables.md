@@ -9,7 +9,7 @@ The easiest way to visualize it _—that I can think of, anyway—_ is to imagin
 
 If you're wondering whether there's a difference between ["options"](options.md) and variables, the short answer is: _not really._ The "options" dialogue —the one that pops up when you invoke the `OPTIONS` command— is actually little more than a user-friendly interface to change some of the more common settings. Under the hood, it's _variables_ that it changes.
 
-However, the settings you can access in the Options dialogue are quite limited. You won't find everything you need there: they are mostly _global_ settings that apply to how your software behaves, and **it doesn't include settings that are specific to the drawing itself.** You use variables to change so many more things, for example:  
+However, the settings you can access in the Options dialogue are quite limited. You won't find everything you need there: they are mostly _global_ settings that apply to how your software behaves, and **it doesn't include settings that are specific to the drawing itself.** You use variables to change many other things, for example:  
 
 - The scale and behavior of dashed lines (specific to the drawing),  
 - The way previews of your commands are displayed,  
@@ -39,15 +39,15 @@ Others will not have dedicated interfaces, but they're also quite simple to mana
 
 ## "Registry" vs. "Drawing"
 
-Before we begin, don't let the word "registry" scare you; I myself found out about it at the time of writing this article.
+_Before we begin: don't let the word "registry" scare you. I myself found out about it at the time of writing this article._
 
-Some variables are stored in the **drawing,** and they define the way that specific drawing should behave. Some very common examples are:
+Some variables are **stored in the drawing,** and they define the way that specific drawing should behave. Some very common examples are:
 
 - Variables defining the scaling of [Linetypes.](../workflow/linetypes.md),  
 - Variables determining whether certain objects display/print their frames,  
 - Variables governing how certain objects are displayed on the screen.
 
-Other variables are stored in the **"registry",** which is just a fancy way to say that it changes how your software behaves. Examples include:
+Other variables are **stored in the "registry",** which is just a fancy way to say that it changes how your software behaves. Examples include:
 
 - Whether or not selection and command previews are displayed,  
 - Whether the file tabs display a preview on hover,

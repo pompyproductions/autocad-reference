@@ -6,6 +6,10 @@
 
 ## MSLTS
 
+## LTSCALE
+
+## CELTSCALE
+
 ## CANNOSCALE
 
 ## VISRETAIN

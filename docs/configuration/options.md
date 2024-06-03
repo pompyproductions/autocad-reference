@@ -35,7 +35,7 @@ The use is simple: hit `Shift` while hovering over a Snap Point to acquire it, a
 
 For more detailed info abot how to make good use out of object snaps, head over to the ["Snapping to Objects article"](../workflow/snapping.md) under the ["Workflow section."](../workflow/index.md)
 
-## Don't make the cursor too big (or too small)
+## Change the size of your cursor
 
 _(You can find this option under Selection > Pickbox Size.)_
 
@@ -46,12 +46,12 @@ Pretty straightforward: **the cursor size needs to be just right.** Too big, and
   <figcaption>My prefererred pickbox size.</figcaption>
 </figure>
 
-You might think that using a very small cursor is the "pro" way to go, but too small a cursor will end up being a hindrance instead, just like an overly sensitive mouse. The key to always pick the right objects is not through cursor size, but through healthy drawing habits. Here's some tips:
+You might think that using a very small cursor is the "pro" way to go, but too small a cursor will end up being a hindrance instead, just like an overly sensitive mouse. The key to always pick the right objects is not through cursor size, but through healthy drawing habits. Here are some tips:
 
 - Make sure the right objects are on top (this is _seriously_ painful),  
 - If it's easier, pick multiple objects and remove the unwanted ones,  
-- Make sure hatches aren't getting in your way (freeze them for precise work),  
-- Manage your layers so that there aren't so many objects in the first place.
+- Make sure [hatches](../workflow/hatches.md) aren't getting in your way (freeze them for precise work),  
+- [Manage your layers](../workflow/layers.md) so that there aren't so many objects in the first place.
 
 If you're interested in how to get better at picking exactly what you want, head over to the ["Selecting Objects"](../workflow/selection.md) article under the ["Workflow"](../workflow/index.md) section.
 
@@ -68,7 +68,7 @@ For _reasons,_ a lot of people don't own the newest AutoCAD. Make sure your soft
 
 ## Keep a dark theme
 
-This should be obvious, but first of all, keep the display as intended: dark background, draw in bright colors. 
+This should be obvious, but first of all, **keep the display as intended:** dark background, draw in bright colors. 
 
 This is not only for your own sake, but for everyone else who will have to open your files in the future: if you make your background light, you have to make your drawing dark, and the vast majority who stick with the dark background will open your files only to curse you.
 

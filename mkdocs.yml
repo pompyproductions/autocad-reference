@@ -121,18 +121,23 @@ nav:
   - Home: index.md
   - Configuration:
     - configuration/index.md
-    - General Options: configuration/options.md
-    - System Variables: configuration/variables.md 
-    - Aliases (shortcuts for commands): configuration/aliases.md
-    - Useful LISPs (custom commands): configuration/lisps.md
+    - AutoCAD Options: configuration/options.md
+    - AutoCAD System Variables: configuration/variables.md 
+    - Command Aliases: configuration/aliases.md
+    - CTBs (Color-dependent Plot Style Table): configuration/ctb.md
+    - Annotation Styles: configuration/styles.md
+    - Templates: configuration/templates.md
+    - LISPs: configuration/lisps.md
   - Workflow:
     - workflow/index.md
     - Layers: workflow/layers.md
     - Blocks: workflow/blocks.md
     - Hatches: workflow/hatches.md
+    - Annotation: workflow/annotation.md
     - Layouts: workflow/layouts.md
-    - Snapping: workflow/snapping.md
-    - XREFs: workflow/xrefs.md
+    - External References (XREFs): workflow/xrefs.md
+    - Selecting Objects: workflow/selection.md
+    - Snapping to Objects: workflow/snapping.md
     - Wildcards: workflow/wildcards.md
   - Reference:
     - reference/index.md

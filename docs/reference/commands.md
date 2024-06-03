@@ -20,7 +20,10 @@
 
 ## FIELD
 
-(associate areas)
+(associate areas)  
+(use "hatch" as a hack for cumulative spaces)  
+(otherwise use tables)  
+(custom units)  
 
 ## UCS
 
